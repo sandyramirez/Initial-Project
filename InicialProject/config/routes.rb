@@ -1,4 +1,6 @@
 InicialProject::Application.routes.draw do
+  get "clientes/index"
+
   get "hola/index"
 
   # The priority is based upon order of creation:
