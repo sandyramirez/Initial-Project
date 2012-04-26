@@ -5,6 +5,7 @@ class CreateOffices < ActiveRecord::Migration
       t.string :direction
       t.string :telephone
       t.text :comment
+      t.string :email
 
       t.timestamps
     end
